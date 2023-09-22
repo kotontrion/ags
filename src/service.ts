@@ -5,6 +5,7 @@ import Audio from './service/audio.js';
 import Battery from './service/battery.js';
 import Bluetooth from './service/bluetooth.js';
 import Hyprland from './service/hyprland.js';
+import Sway from './service/sway.js';
 import Mpris from './service/mpris.js';
 import Network from './service/network.js';
 import Notifications from './service/notifications.js';
@@ -16,6 +17,7 @@ export {
     Battery,
     Bluetooth,
     Hyprland,
+    Sway,
     Mpris,
     Network,
     Notifications,
@@ -28,6 +30,7 @@ Service.Audio = Audio;
 Service.Battery = Battery;
 Service.Bluetooth = Bluetooth;
 Service.Hyprland = Hyprland;
+Service.Sway = Sway;
 Service.Mpris = Mpris;
 Service.Network = Network;
 Service.Notifications = Notifications;
